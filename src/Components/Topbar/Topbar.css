@@ -1,0 +1,50 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 70px;
+}
+.topbar-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+}
+.topbar-logo img{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+.topbar-logo p{
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+.topbar-left-menu{
+    display: flex;
+    align-items: center;
+}
+.topbar-menu-items{
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+.topbar-menu-items.active{
+    color: #20b883;
+    padding-bottom: 22px;
+    border-bottom: 3px solid #20b883;
+}
